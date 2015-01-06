@@ -27,9 +27,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.9899495"
-     inkscape:cx="68.790238"
-     inkscape:cy="305.75345"
+     inkscape:zoom="0.12374369"
+     inkscape:cx="-137.43095"
+     inkscape:cy="89.793024"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -47,7 +47,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -82,14 +82,14 @@
     <text
        xml:space="preserve"
        style="font-size:22px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Carlito;-inkscape-font-specification:Carlito Bold"
-       x="127.5708"
+       x="137.5708"
        y="951.99945"
        id="text3799"
        sodipodi:linespacing="125%"><tspan
          sodipodi:role="line"
          id="tspan3801"
-         x="127.5708"
+         x="137.5708"
          y="951.99945"
-         style="font-size:490px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;fill:#ffffff;fill-opacity:1;font-family:Carlito;-inkscape-font-specification:Carlito Bold">&gt;</tspan></text>
+         style="font-size:490px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;fill:#ff8c00;fill-opacity:1;font-family:Carlito;-inkscape-font-specification:Carlito Bold">&gt;</tspan></text>
   </g>
 </svg>

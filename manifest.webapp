@@ -1,5 +1,5 @@
 {
-  "name": "FxOS H/W System",
+  "name": "FxOS H/W",
   "type": "certified",
   "description": "FxOS H/W Main System",
   "launch_path": "/index.html",
@@ -53,7 +53,7 @@
   },
   "locales": {
     "en-US": {
-      "name": "FxOS H/W System",
+      "name": "FxOS H/W",
       "description": "FxOS H/W Main System"
     }
   },

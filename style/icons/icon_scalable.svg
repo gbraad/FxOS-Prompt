@@ -14,7 +14,7 @@
    id="svg2"
    version="1.1"
    inkscape:version="0.48.5 r10040"
-   sodipodi:docname="icon_scalable.svg"
+   sodipodi:docname="icon_scalable-path.svg"
    inkscape:export-filename="/home/gbraad/Projects/B2G-FxOS-hardware-system/style/icons/icon_84.png"
    inkscape:export-xdpi="14.881868"
    inkscape:export-ydpi="14.881868">
@@ -27,18 +27,18 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.12374369"
-     inkscape:cx="-137.43095"
-     inkscape:cy="89.793024"
+     inkscape:zoom="0.98994952"
+     inkscape:cx="376.85475"
+     inkscape:cy="261.22159"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
      units="px"
-     inkscape:window-width="958"
-     inkscape:window-height="1172"
+     inkscape:window-width="1440"
+     inkscape:window-height="873"
      inkscape:window-x="0"
-     inkscape:window-y="0"
-     inkscape:window-maximized="0" />
+     inkscape:window-y="27"
+     inkscape:window-maximized="1" />
   <metadata
      id="metadata7">
     <rdf:RDF>
@@ -47,7 +47,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title />
+        <dc:title></dc:title>
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -79,17 +79,13 @@
        sodipodi:ry="212.85715"
        d="M 212.85715,1.9999998 C 212.85715,119.55776 117.55776,214.85715 0,214.85715 c -117.55776,0 -212.85715,-95.29939 -212.85715,-212.8571502 0,-117.5577598 95.29939,-212.8571498 212.85715,-212.8571498 117.55776,0 212.85715,95.29939 212.85715,212.8571498 z"
        transform="matrix(0.93366501,0,0,0.93366501,256,794.49489)" />
-    <text
-       xml:space="preserve"
+    <g
        style="font-size:22px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Carlito;-inkscape-font-specification:Carlito Bold"
-       x="137.5708"
-       y="951.99945"
-       id="text3799"
-       sodipodi:linespacing="125%"><tspan
-         sodipodi:role="line"
-         id="tspan3801"
-         x="137.5708"
-         y="951.99945"
-         style="font-size:490px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;fill:#ff8c00;fill-opacity:1;font-family:Carlito;-inkscape-font-specification:Carlito Bold">&gt;</tspan></text>
+       id="text3799">
+      <path
+         d="m 178.00537,904.86566 0,-43.54492 c -4e-5,-3.19001 0.79749,-6.0611 2.39258,-8.61328 1.59501,-2.71149 4.30659,-5.02431 8.13476,-6.93848 l 78.95508,-40.67383 c 7.1776,-3.50896 15.31236,-6.38005 24.4043,-8.61328 -9.25145,-2.23291 -17.30645,-5.18376 -24.16504,-8.85254 l -79.43359,-40.67382 c -3.66867,-1.91386 -6.3005,-4.22668 -7.89551,-6.93848 -1.59509,-2.71138 -2.39262,-5.66222 -2.39258,-8.85254 l 0,-43.30566 183.98926,96.42089 0,24.16504 -183.98926,96.4209"
+         style="font-size:490px;fill:#ff8c00;font-family:Carlito;-inkscape-font-specification:Carlito Bold"
+         id="path3086" />
+    </g>
   </g>
 </svg>

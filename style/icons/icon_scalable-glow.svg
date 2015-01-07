@@ -99,8 +99,8 @@
       <animate id="prompt-animation"
          xlink:href="#prompt-glow-feGaussianBlur"
          attributeName="stdDeviation" attributeType="XML"
-         begin="0s" dur="2s" from="0" to="15"
-         values="0; 15; 0"
+         begin="0s" dur="3s" from="0" to="20"
+         values="0; 20; 0"
          keyTimes="0; 0.5; 1" repeatCount="indefinite" />
     </g>
   </g>

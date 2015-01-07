@@ -1,5 +1,5 @@
-Prompt - FxOS as a Hardware Platform
-====================================
+>Prompt - FxOS as a Hardware Platform
+=====================================
 
 This is the main application for a display-less hardware platform running on 
 Firefox OS.

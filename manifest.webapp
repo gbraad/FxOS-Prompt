@@ -1,7 +1,7 @@
 {
-  "name": "FxOS H/W",
+  "name": ">Prompt H/W",
   "type": "certified",
-  "description": "FxOS H/W Main System",
+  "description": ">Prompt - FxOS H/W Main System",
   "launch_path": "/index.html",
   "developer": {
     "name": "Gerard Braad",
@@ -53,8 +53,8 @@
   },
   "locales": {
     "en-US": {
-      "name": "FxOS H/W",
-      "description": "FxOS H/W Main System"
+      "name": ">Prompt H/W",
+      "description": ">Prompt H/W Main System"
     }
   },
   "default_locale": "en-US",

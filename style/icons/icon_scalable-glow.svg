@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="512"
+   height="512"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.48.5 r10040"
+   sodipodi:docname="icon_scalable-glow2.svg">
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="640"
+     inkscape:window-height="480"
+     id="namedview17"
+     showgrid="false"
+     inkscape:zoom="0.4609375"
+     inkscape:cx="256"
+     inkscape:cy="256"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="icon-group" />
+  <defs
+     id="prompt-defs">
+    <g
+       id="prompt-group">
+      <path
+         id="prompt-path"
+         style="fill:#ff8c00"
+         d="m 178.00537,904.86566 0,-43.54492 c -4e-5,-3.19001 0.79749,-6.0611 2.39258,-8.61328 1.59501,-2.71149 4.30659,-5.02431 8.13476,-6.93848 l 78.95508,-40.67383 c 7.1776,-3.50896 15.31236,-6.38005 24.4043,-8.61328 -9.25145,-2.23291 -17.30645,-5.18376 -24.16504,-8.85254 l -79.43359,-40.67382 c -3.66867,-1.91386 -6.3005,-4.22668 -7.89551,-6.93848 -1.59509,-2.71138 -2.39262,-5.66222 -2.39258,-8.85254 l 0,-43.30566 183.98926,96.42089 0,24.16504 -183.98926,96.4209" />
+    </g>
+    <filter
+       inkscape:label="Glow"
+       inkscape:menu="Shadows and Glows"
+       inkscape:menu-tooltip="Glow of object's own color at the edges"
+       color-interpolation-filters="sRGB"
+       id="prompt-glow">
+      <feGaussianBlur
+         stdDeviation="10"
+         result="result91"
+         id="prompt-glow-feGaussianBlur" />
+      <feComposite
+         in="SourceGraphic"
+         operator="over"
+         in2="result91"
+         id="prompt-glow-feComposite" />
+    </filter>
+  </defs>
+  <metadata
+     id="prompt-metadata">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     id="icon-group"
+     transform="translate(0,-540.36222)">
+    <g
+       id="template-group">
+      <path
+         style="fill:#b3b3b3;fill-opacity:1;stroke:#000000;stroke-width:5.31126204999999985;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+         id="template-path1"
+         d="M 268.57142,1.9999998 C 268.57142,149.53892 148.9675,269.14285 1.4285715,269.14285 -146.11035,269.14285 -265.71428,149.53892 -265.71428,1.9999998 c 0,-147.5389198 119.60393,-267.1428498 267.1428515,-267.1428498 147.5389285,0 267.1428485,119.60393 267.1428485,267.1428498 z"
+         transform="matrix(0.94139584,0,0,0.94139584,254.65515,794.47943)" />
+      <path
+         style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:5;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+         id="template-path2"
+         d="M 212.85715,1.9999998 C 212.85715,119.55776 117.55776,214.85715 0,214.85715 c -117.55776,0 -212.85715,-95.29939 -212.85715,-212.8571502 0,-117.5577598 95.29939,-212.8571498 212.85715,-212.8571498 117.55776,0 212.85715,95.29939 212.85715,212.8571498 z"
+         transform="matrix(0.93366501,0,0,0.93366501,256,794.49489)" />
+    </g>
+    <g
+       id="blurred-group"
+       style="filter:url(#prompt-glow)">
+      <use
+         xlink:href="#prompt-path"
+         id="prompt-glowing" />
+      <animate id="prompt-animation"
+         xlink:href="#prompt-glow-feGaussianBlur"
+         attributeName="stdDeviation" attributeType="XML"
+         begin="0s" dur="2s" from="0" to="15"
+         values="0; 15; 0"
+         keyTimes="0; 0.5; 1" repeatCount="indefinite" />
+    </g>
+  </g>
+</svg>

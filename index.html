@@ -2,32 +2,12 @@
 <html>
   <head>
     <!-- >Prompt - FxOS as a hardware platform -->
-    <style>
-      body {
-        background: black;
-        color: white;
-      }
-
-      .abs-center {
-        margin: auto;
-        position: absolute;
-        top: 0;
-        left: 0;
-        bottom: 0;
-        right: 0;
-      }
-
-      .icon {
-        width: 14rem;
-        height: 14rem;
-        background-image: url("style/icons/icon_scalable-glow.svg");
-        background-repeat: no-repeat;
-        background-size: 100% 100%;
-      }
-    </style>
     <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1">
     <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="style/views.css">
+    <link rel="stylesheet" type="text/css" href="style/prompt.css">
 
+    <script src="js/console.js"></script>
     <script src="js/bootstrap.js"></script>
 
     <!-- Stuff from gaia regarding operators and stuff -->
@@ -37,9 +17,23 @@
 
     <!-- Own scripts -->
     <!--<script defer src="js/[your-script].js"></script>-->
-  </head>
+
+    </head>
 
   <body>
-    <div class="abs-center icon"></div>
+
+  <div id="views">
+      <div id="main-panel-wrapper">
+        <div id="prompt-panel" class="active panel" data-panel-id="prompt" role="tabpanel">
+          <div id="prompt-icon" class="abs-center"></div>
+
+          <!-- Currently shows last console.log message -->
+          <div id="prompt-output"></div>
+        </div>
+        <div id="console-panel" class="hidden panel" data-panel-id="console" role="tabpanel">
+          <textarea id="console-editor"></textarea>
+        </div>
+      </div>
+    </div>
   </body>
 </html>

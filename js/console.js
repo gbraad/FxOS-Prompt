@@ -5,5 +5,5 @@ console.log = function(msg) {
   var output = document.getElementById("prompt-output");
   if(output)
     output.innerHTML = msg;
-  real_console_log(msg);
+  real_console_log.apply(console, arguments);
 }

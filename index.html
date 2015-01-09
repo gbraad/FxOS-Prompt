@@ -5,10 +5,21 @@
     <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1">
     <meta charset="utf-8">
     <link rel="stylesheet" type="text/css" href="style/views.css">
+
+    <link rel="stylesheet" href="components/codemirror.css">
+    <link rel="stylesheet" href="components/themes/tomorrow-night-bright.css">
+
     <link rel="stylesheet" type="text/css" href="style/prompt.css">
+    <link rel="stylesheet" type="text/css" href="style/command.css">
+
+    <script src="components/codemirror.js"></script>
+    <script src="components/modes/javascript.js"></script>
 
     <script src="js/console.js"></script>
     <script src="js/bootstrap.js"></script>
+
+    <script src="js/jsdump.js"></script>
+    <script src="js/command.js"></script>
 
     <!-- Stuff from gaia regarding operators and stuff -->
     <script defer src="js/gaia-helpers/apn_helper.js"></script>
@@ -24,16 +35,23 @@
 
   <div id="views">
       <div id="main-panel-wrapper">
-        <div id="prompt-panel" class="active panel" data-panel-id="prompt" role="tabpanel">
+        <div id="prompt-panel" class="hidden panel" data-panel-id="prompt" role="tabpanel">
           <div id="prompt-icon" class="abs-center"></div>
-
           <!-- Currently shows last console.log message -->
           <div id="prompt-output"></div>
         </div>
-        <div id="console-panel" class="hidden panel" data-panel-id="console" role="tabpanel">
-          <textarea id="console-editor"></textarea>
+        <div id="command-panel" class="active panel" data-panel-id="console" role="tabpanel">
+          <div id="prompt-table">
+            <div id="prompt-editor"></div>
+            <input id="prompt-input"></input>
+          </div>
         </div>
       </div>
     </div>
+    <script>
+      window.onload = function() {
+        prompt.command.setup();
+      }
+    </script>
   </body>
 </html>
